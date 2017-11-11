@@ -18,6 +18,22 @@
 		<entity name="fleshTonn" prob="0.02" />
 	</entitygroup>
 	
+	<entitygroup name="NightTerrorsExtreme">
+		<entity name="zombieOldTimer" prob="0.3" />
+		<entity name="zombieBiker" prob="0.3" />
+		<entity name="zombieFarmer" prob="0.3" />
+		<entity name="zombieUtilityWorker" prob="0.3" />
+		<entity name="zombieNurse" prob="0.3" />
+		<entity name="zombieFatHawaiian" prob="0.3" />
+		<entity name="Nightmare_c1" prob="0.15" />
+		<entity name="Nightmare_c2" prob="0.15" />
+		<entity name="Nightmare_c4" prob="0.15" />
+		<entity name="Nightmare_c5" prob="0.15" />
+		<entity name="Ripper" prob="0.05" />
+		<entity name="ZombieMutant" prob="0.15" />
+
+	</entitygroup>
+	
 	<entitygroup name="BanditsAll">
 		<entity name="followerSargentSlaughter01" />
 		<entity name="followerSargentSlaughter02" />
@@ -102,7 +118,6 @@
 		<entity name="sanZombieOldMan" />
 		<entity name="sanZombieCripple" />
 		<entity name="sanZombieVagrant" />
-		<entity name="sanZombieKim" />
 		<entity name="sanZombieHunterSven" />
 		<entity name="sanZombieInfectedLady" />
 		<entity name="sanZombieInfectedSurvivor" />
@@ -176,7 +191,6 @@
 		<entity name="sanZombieOldMan"  prob="0.3" />
 		<entity name="sanZombieCripple"  prob="0.3" />
 		<entity name="sanZombieVagrant"  prob="0.3" />
-		<entity name="sanZombieKim"  prob="0.3" />
 		<entity name="sanZombieHunterSven"  prob="0.3" />
 		<entity name="sanZombieInfectedLady"  prob="0.3" />
 		<entity name="sanZombieInfectedSurvivor"  prob="0.3" />
@@ -237,7 +251,6 @@
 		<entity name="sanZombieOldMan"  prob="0.3" />
 		<entity name="sanZombieCripple"  prob="0.3" />
 		<entity name="sanZombieVagrant"  prob="0.3" />
-		<entity name="sanZombieKim"  prob="0.3" />
 		<entity name="sanZombieHunterSven"  prob="0.3" />
 		<entity name="sanZombieInfectedLady"  prob="0.3" />
 		<entity name="sanZombieInfectedSurvivor"  prob="0.3" />
@@ -424,7 +437,6 @@
 		<entity name="sanZombieOldMan"  prob="0.3" />
 		<entity name="sanZombieCripple"  prob="0.3" />
 		<entity name="sanZombieVagrant"  prob="0.3" />
-		<entity name="sanZombieKim"  prob="0.3" />
 		<entity name="sanZombieHunterSven"  prob="0.3" />
 		<entity name="sanZombieInfectedLady"  prob="0.3" />
 		<entity name="sanZombieInfectedSurvivor"  prob="0.3" />
@@ -496,7 +508,6 @@
 		<entity name="sanZombieOldMan"  prob="0.3" />
 		<entity name="sanZombieCripple"  prob="0.3" />
 		<entity name="sanZombieVagrant"  prob="0.3" />
-		<entity name="sanZombieKim"  prob="0.3" />
 		<entity name="sanZombieHunterSven"  prob="0.3" />
 		<entity name="sanZombieInfectedLady"  prob="0.3" />
 		<entity name="sanZombieInfectedSurvivor"  prob="0.3" />
@@ -561,7 +572,6 @@
 		<entity name="sanZombieOldMan"  prob="0.3" />
 		<entity name="sanZombieCripple"  prob="0.3" />
 		<entity name="sanZombieVagrant"  prob="0.3" />
-		<entity name="sanZombieKim"  prob="0.3" />
 		<entity name="sanZombieHunterSven"  prob="0.3" />
 		<entity name="sanZombieInfectedLady"  prob="0.3" />
 		<entity name="sanZombieInfectedSurvivor"  prob="0.3" />
@@ -626,7 +636,6 @@
 		<entity name="sanZombieOldMan"  prob="0.3" />
 		<entity name="sanZombieCripple"  prob="0.3" />
 		<entity name="sanZombieVagrant"  prob="0.3" />
-		<entity name="sanZombieKim"  prob="0.3" />
 		<entity name="sanZombieHunterSven"  prob="0.3" />
 		<entity name="sanZombieInfectedLady"  prob="0.3" />
 		<entity name="sanZombieInfectedSurvivor"  prob="0.3" />
@@ -687,7 +696,6 @@
 		<entity name="sanZombieOldMan"  prob="0.3" />
 		<entity name="sanZombieCripple"  prob="0.3" />
 		<entity name="sanZombieVagrant"  prob="0.3" />
-		<entity name="sanZombieKim"  prob="0.3" />
 		<entity name="sanZombieHunterSven"  prob="0.3" />
 		<entity name="sanZombieInfectedLady"  prob="0.3" />
 		<entity name="sanZombieInfectedSurvivor"  prob="0.3" />
