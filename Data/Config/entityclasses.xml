@@ -1524,16 +1524,16 @@
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 	</entity_class>
 	<!-- Missing: zombieFarmerFeralRadiated -->
-	<entity_class name="zombieStripper" extends="zombieDarlene">
+<!-- 	<entity_class name="zombieStripper" extends="zombieDarlene">
 		<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
 		<property name="HandItem" value="handZombieStripper"/>
 		<property name="MaxHealth" value="325"/>
 		<property name="ExperienceGain" value="575"/>
 		<property name="LootListOnDeath" value="84"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
-	</entity_class>
+	</entity_class> -->
 	<!-- Missing: zombieStripperRadiated -->
-	<entity_class name="zombieStripperFeral" extends="zombieStripper">
+<!-- 	<entity_class name="zombieStripperFeral" extends="zombieStripper">
 		<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
 		<property name="HandItem" value="handZombieStripperFeral"/>
 		<property name="MaxHealth" value="525"/>
@@ -1542,7 +1542,7 @@
 		<property name="ApproachSpeed" value="0.6"/>
 		<property name="NightApproachSpeed" value="0.6"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
-	</entity_class>
+	</entity_class> -->
 	<!-- Missing: zombieStripperFeralRadiated -->
 	<!--<entity_class name="zombieUMATemplateMale" extends="zombieTemplateMale"><property name="EntityType" value="Zombie"/><property name="Mesh" value="Zombies/zombie01Ragdoll"/><property name="Prefab" value="NPC"/><property name="Class" value="EntityZombie"/><property name="Parent" value="Enemies"/><property name="IsEnemyEntity" value="true"/><property name="HandItem" value="handZombie"/><property name="SoundAlert" value="Enemies/Base_Zombie_Male/zombiemalealert"/><property name="SoundSense" value="Enemies/Base_Zombie_Male/zombiemalesense"/><property name="SoundHurt" value="Enemies/Base_Zombie_Male/zombiemalepain"/><property name="SoundDeath" value="Enemies/Base_Zombie_Male/zombiemaledeath"/><property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/><property name="AttackTimeoutDay" value="1.5"/><property name="AttackTimeoutNight" value="1.1"/><property name="WalkType" value="7"/><property name="ModelType" value="ZombieUMA"/><property name="RootMotion" value="true"/><property name="HasRagdoll" value="true"/><property name="AvatarController" value="AvatarZombieUMAController"/><property name="PhysicsBody" value="zombieUMA"/><property name="HasDeathAnim" value="false"/><property name="TimeStayAfterDeath" value="45"/><property name="LootListOnDeath" value="15"/><property name="CorpseBlock" value="GoreBlock1Prefab"/><property name="CorpseBlockChance" value="1"/></entity_class><entity_class name="zombieUMATemplateFemale" extends="zombieUMATemplateMale"><property name="Archetype" value="ZombieFemaleUMA"/><property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/><property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/><property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/><property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/><property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/><property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/></entity_class><entity_class name="zombieMiner" extends="zombieUMATemplateMale"><property name="Archetype" value="ZombieMiner"/><property name="HandItem" value="handZombieWorkerFeral"/><property name="ExperienceGain" value="1556"/><property name="LootListOnDeath" value="82"/></entity_class>-->
 	<!-- TIMID ANIMALS -->
@@ -2511,7 +2511,7 @@
 		<property name="LootListOnDeath" value="81"/>
 	</entity_class>
 	<!-- handZombieStrong, -speed 0.55 at night -->
-	<entity_class name="sanZombieEvilGranny" extends="badZombieFemaleUMA">
+<!-- 	<entity_class name="sanZombieEvilGranny" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="sanZombieEvilGranny"/>
 		<property name="HandItem" value="handZombieStrong"/>
 		<property name="WalkType" value="1"/>
@@ -2519,7 +2519,7 @@
 		<property name="ApproachSpeed" value="0.55"/>
 		<property name="NightWanderSpeed" value="0.2"/>
 		<property name="NightApproachSpeed" value="0.55"/>
-	</entity_class>
+	</entity_class> -->
 	<!-- -HP 100, +speed 0.45 -->
 	<entity_class name="badZombieSeryph" extends="badZombieFemaleUMA">
 		<property name="Archetype" value="ZombieSeryph"/>
@@ -2532,13 +2532,13 @@
 		<property name="ExperienceGain" value="575"/>
 	</entity_class>
 	<!-- +HP 200, handZombieStrong -->
-	<entity_class name="valZombieBigBitch" extends="badZombieFemaleUMA" >
+<!-- 	<entity_class name="valZombieBigBitch" extends="badZombieFemaleUMA" >
 		<property name="Archetype" value="valZombieBigBitch"/>
 		<property name="MaxHealth" value="525"/>
 		<property name="WalkType" value="1"/>
 		<property name="HandItem" value="handZombieStrong"/>
 		<property name="ExperienceGain" value="675"/>
-	</entity_class>
+	</entity_class> -->
 	<!-- +HP 350, loot 73 -->
 	<entity_class name="sanZombieCpl" extends="badZombieFemaleUMA" >
 		<property name="Archetype" value="sanZombieCpl"/>
@@ -2791,7 +2791,7 @@
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
-<entity_class name="partygirl" extends="zombieTemplateMale">
+<!-- <entity_class name="partygirl" extends="zombieTemplateMale">
 	<property name="Archetype" value="zombieStripperDrunk"/>
 	<property name="EntityType" value="Zombie"/>
 	<property name="Prefab" value="NPC"/>
@@ -2822,7 +2822,7 @@
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
 	<property name="TimeStayAfterDeath" value="7"/>
-	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
+	<property name="AttackTimeoutDay" value="1.5"/> 
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="174"/>
 	<property name="AITask-1" value="BreakDoor"/>
@@ -2855,9 +2855,9 @@
 	<property name="ChestExplosionDamageMultiplier" value="2"/>
 	<property name="ApproachSpeed" value="2.0"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
-</entity_class>
+</entity_class> -->
 
-<entity_class name="badasspartygirl" extends="zombieTemplateMale">
+<!-- <entity_class name="badasspartygirl" extends="zombieTemplateMale">
 	<property name="Archetype" value="zombieStripperDrunk"/>
 	<property name="EntityType" value="Zombie"/>
 	<property name="Prefab" value="NPC"/>
@@ -2888,7 +2888,7 @@
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
 	<property name="TimeStayAfterDeath" value="7"/>
-	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
+	<property name="AttackTimeoutDay" value="1.5"/> 
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="17"/>
 	<property name="AITask-1" value="BreakDoor"/>
@@ -2921,7 +2921,7 @@
 	<property name="ChestExplosionDamageMultiplier" value="2"/>
 	<property name="ApproachSpeed" value="2.0"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
-</entity_class>
+</entity_class> -->
 
 <entity_class name="othercustomzombietemplate" extends="zombieTemplateMale">
 	<property name="EntityType" value="Zombie"/>
@@ -2975,7 +2975,7 @@
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
-<entity_class name="zombieHorny" extends="othercustomzombietemplate">
+<!-- <entity_class name="zombieHorny" extends="othercustomzombietemplate">
 	<property name="Archetype" value="zombieHorny"/>
 	<property name="MaxHealth" value="325"/>
 	<property name="ExperienceGain" value="575"/>
@@ -2990,7 +2990,7 @@
 	<property name="WalkType" value="5"/>
 	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 	<property name="CorpseBlockChance" value="1"/>
-</entity_class>
+</entity_class> -->
 
 <entity_class name="zombieScared" extends="othercustomzombietemplate">
 	<property name="Archetype" value="scaredzombie"/>
@@ -3031,7 +3031,7 @@
 	<property name="KnockdownKneelDamageThreshold" value="0.08"/>
 </entity_class>
 
-<entity_class name="zombieDitz" extends="othercustomzombietemplate">
+<!-- <entity_class name="zombieDitz" extends="othercustomzombietemplate">
 	<property name="Archetype" value="ditz"/>
 	<property name="MaxHealth" value="525"/>
 	<property name="ExperienceGain" value="875"/>
@@ -3047,9 +3047,9 @@
 	<property name="ApproachSpeed" value="20.0"/>	
 	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 	<property name="CorpseBlockChance" value="1"/>
-</entity_class>	
+</entity_class>	 -->
 
-<entity_class name="angryzombieDitz" extends="othercustomzombietemplate">
+<!-- <entity_class name="angryzombieDitz" extends="othercustomzombietemplate">
 	<property name="Archetype" value="ditz"/>
 	<property name="MaxHealth" value="525"/>
 	<property name="ExperienceGain" value="875"/>
@@ -3083,7 +3083,7 @@
 	<property name="ApproachSpeed" value="20.0"/>	
 	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 	<property name="CorpseBlockChance" value="1"/>
-</entity_class>	
+</entity_class>	 -->
 
 <entity_class name="CuriousGeorge" extends="othercustomzombietemplate">
 	<property name="Archetype" value="curiousgeorge"/>
